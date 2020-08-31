@@ -1,0 +1,18 @@
+.FollowUser{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.edit_profile_button{
+    background-color: #fafafa;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: 600;
+    height: 30px;
+    margin-right: 10px;
+}

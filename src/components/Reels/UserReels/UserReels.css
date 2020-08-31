@@ -1,0 +1,27 @@
+.userReels{
+    height: 1vh;
+    display: grid;
+    place-items: center;
+  }
+  .userReels_videos{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  .userReels_videos::-webkit-scrollbar{
+    display: none;
+  }
+  .userReels_videos{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  @media(max-width:500px){
+    .userReels_videos{
+      width: 100%;
+      border-radius: none;
+    }
+  }

@@ -1,0 +1,23 @@
+.SearchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #fafafa;
+    width: 200px;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+.Search{
+    height: 25px;
+    background-color: #fafafa;
+    border: none;
+    width: 100%;
+}
+.Search:focus{
+    outline: none;
+}
+.SearchIcon{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

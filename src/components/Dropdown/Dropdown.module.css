@@ -1,0 +1,41 @@
+.Dropdown{
+    min-height: 150px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 30px;
+    z-index: 2;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px -1px 5px 0.2px #ccc;
+    border-radius: 10px;
+}
+.UserSet{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.NavigationHolder{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.Navigator{
+    height: 50px;
+    display: flex;
+    font-size: 15px;
+    color: #484848;
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    padding-left: 10px;
+}
+.Navigator:hover{
+    background-color: #fafafa;
+    transition: 0.3s ease-in;
+}
+.icon{
+    margin-right: 10px;
+}

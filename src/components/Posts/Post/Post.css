@@ -1,0 +1,100 @@
+.post{
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+.post_image{
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.post_like_and_save{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    margin-top: 5px ;
+}
+.post_LikesNo{
+    color:#c7c7c7;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    display: flex;
+}
+.post_caption{
+    margin-left: 20px;
+    padding-top: 5px;
+    display: flex;
+}
+.post_text{
+    font-weight: normal;
+    margin-left: 10px;
+}
+.post_header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.user_post_details{
+    display: flex;
+    align-items:center;
+}
+.user_post_options{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.postSettings_Button{
+    border: 1px solid #ccc;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.post_avatar{
+    margin-right: 10px;
+}
+.post_comments{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -10px;
+}
+.post_comment{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.post_comment_user{
+    display: flex;
+}
+.post_addcommentDiv{
+    border-top:1px solid lightgray ;
+    padding:0px 20px;
+    margin-bottom: 10px;
+}
+.post_commentForm{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+.post_commentInput{
+    flex: 1;
+    border: none;
+}
+.post_commentButton{
+    flex:0;
+    color:lightblue
+}
+@media(max-width:1020px){
+    .post{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

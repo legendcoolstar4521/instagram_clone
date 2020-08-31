@@ -1,0 +1,17 @@
+.reelSidebar{
+    position: absolute;
+    top: 2%;
+    right: 10px;
+    color: whitesmoke;
+}
+.reelSidebar_button{
+    padding: 20px;
+    text-align: center;
+}
+.closeReel{
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 250px;  
+    color: whitesmoke;
+    font-size: 30px;
+}

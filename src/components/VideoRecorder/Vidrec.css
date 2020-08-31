@@ -1,0 +1,40 @@
+.vidrec{
+    width: 100%;
+    height: 530px;
+}
+.videoControlsHandler{
+    display: flex;
+    justify-content: center;
+}
+.videoControlsHandler>a{
+    width: 80px;
+    height: 28px;
+    border: 1px solid #484848;
+    display: flex;
+    justify-content: center;
+    background-color: #ededed;
+    text-decoration: none;
+    color: black;
+}
+.videoControlsHandler>a:hover{
+    text-decoration: none;
+}
+.videoControlButton{
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.videoSelect{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.reelUpload_caption{
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}

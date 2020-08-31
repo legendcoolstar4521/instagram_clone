@@ -1,0 +1,14 @@
+.userPosts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+@media(max-width:1020px){
+    .userPosts{
+        object-fit: contain;
+        justify-content: center;
+    } 
+}

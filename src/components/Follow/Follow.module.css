@@ -1,0 +1,19 @@
+.Follow{
+    width: 100%;
+}
+.Text{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.scrollLikedList{
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.scrollLikedList::-webkit-scrollbar {display:none;}
+

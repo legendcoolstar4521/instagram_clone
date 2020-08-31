@@ -1,0 +1,13 @@
+.Notifications{
+    width: 450px;
+}
+.scrollLikedList{
+    margin-top: 15px;
+    width: 100%;
+    height: 300px;
+    overflow-y: scroll;
+}
+.NotificationsBorder{
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+}

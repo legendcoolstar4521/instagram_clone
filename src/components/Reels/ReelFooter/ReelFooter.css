@@ -1,0 +1,65 @@
+.reelFooter{
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    padding: 20px;
+    color:whitesmoke;
+}
+.reelFooter_text{
+    flex: 1;
+}
+.outer{
+    margin-top: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    animation: spinTheRecord 5s infinite linear;
+}
+.inner{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.superInner{
+    width:3px;
+    height:3px;
+    border-radius: 50%;
+    background-color: whitesmoke;  
+}
+.cover{
+    height: 10px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.outerCover{
+    height: 14px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.reelFooter_ticker{
+    display: flex;
+}
+.reelFooter_ticker> .ticker{
+    height: fit-content;
+    margin-left: 10px;
+    width: 60%;
+    margin-top: 5px;
+}
+@keyframes spinTheRecord{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

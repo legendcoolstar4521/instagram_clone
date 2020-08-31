@@ -1,0 +1,32 @@
+.Upload{
+    height: 650px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lightgray;
+    object-fit: contain;
+}
+
+.PreviewSection{
+    height:540px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+.UploadSelectSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postTypeIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 20px;
+    width: 70px;
+}
